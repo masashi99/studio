@@ -6,6 +6,7 @@ import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
 import honoLogo from "./assets/hono.svg";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import "./global.css";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -13,7 +14,7 @@ function App() {
 
 	return (
 		<>
-			<div>
+			<div className="bg-red-500">
 				<a href="https://vite.dev" target="_blank" rel="noopener">
 					<img src={viteLogo} className="logo" alt="Vite logo" />
 				</a>
