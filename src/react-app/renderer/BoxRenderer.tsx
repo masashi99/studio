@@ -1,7 +1,7 @@
-export type BoxRendererProps = {
+type Props = {
   children: React.ReactNode;
 }
 
-export function BoxRenderer({ children }: BoxRendererProps) {
+export function BoxRenderer({ children }: Props) {
   return <div>{children}</div>
 } 

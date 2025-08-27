@@ -1,7 +1,7 @@
-export type TextRendererProps = {
+type Props = {
   text: string;
 }
 
-export function TextRenderer({ text }: TextRendererProps) {
+export function TextRenderer({ text }: Props) {
   return <span>{text}</span>
 }
