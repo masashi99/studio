@@ -17,6 +17,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "@tanstack/react-router": "^1.131.35",
+    "@tanstack/react-router-devtools": "^1.131.37",
     "hono": "4.8.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
     "@cloudflare/vite-plugin": "1.7.5",
+    "@tanstack/router-plugin": "^1.131.37",
     "@types/node": "24.0.4",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
