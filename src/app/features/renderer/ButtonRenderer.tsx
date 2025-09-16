@@ -1,7 +1,7 @@
 type Props = {
-  children: React.ReactNode;
-}
+	children: React.ReactNode;
+};
 
-export function ButtonRenderer({ children }: Props){
-  return <button type="button">{children}</button>
+export function ButtonRenderer({ children }: Props) {
+	return <button type="button">{children}</button>;
 }

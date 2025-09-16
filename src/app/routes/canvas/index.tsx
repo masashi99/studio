@@ -1,9 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router"
+import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/canvas/")({
-  component: CanvasPage
-})
+	component: CanvasPage,
+});
 
-export function CanvasPage () {
-  return <div>hoge</div>
+export function CanvasPage() {
+	return <div>hoge</div>;
 }

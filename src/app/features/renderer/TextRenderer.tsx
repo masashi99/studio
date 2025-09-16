@@ -1,7 +1,7 @@
 type Props = {
-  text: string;
-}
+	text: string;
+};
 
 export function TextRenderer({ text }: Props) {
-  return <span>{text}</span>
+	return <span>{text}</span>;
 }
